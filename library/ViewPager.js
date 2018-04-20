@@ -1,10 +1,11 @@
-import React, { PropTypes, Component } from 'react';
+import React, { Component } from 'react';
 import {
   View,
   ListView,
   Platform
 } from 'react-native';
 
+import PropTypes from 'prop-types'
 import Scroller from 'react-native-scroller';
 import {createResponder} from 'react-native-gesture-responder';
 import TimerMixin from 'react-timer-mixin';
